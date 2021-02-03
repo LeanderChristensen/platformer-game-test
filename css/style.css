@@ -1,0 +1,126 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #161616;
+  cursor: wait;
+}
+
+#back {
+  color: #fff;
+  margin-top: 2px;
+  margin-left: 1px;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding: 0;
+  font-size: 36px;
+}
+
+#backdiv {
+  position: fixed;
+  background-color: #000;
+  border-radius: 50%;
+  left: 40px;
+  top: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+#game {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#loading {
+  font-size: 72px;
+  color: #fff;
+  margin-top: 230px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+#noscript {
+  font-size: 72px;
+  color: #fff;
+  margin-top: 230px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+#title {
+  font-size: 46px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+#beta {
+  font-size: 26px;
+  color: red;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.menubutton {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  color: #fff;
+  background-color: #161616;
+  border: 1px #fff solid;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+#about {
+  width: 100%;
+  height: 100%;
+  background-color: #161616;
+  border: 1px #fff solid;
+  color: #fff;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+#abouttitle {
+  margin-right: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+#abouttext {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  line-height: 25px;
+}
+
+#playbutton {
+  font-size: 56px;
+}
+
+#continuebutton {
+  font-size: 46px;
+}
+
+#newgamebutton {
+  font-size: 46px;
+}
+
+#aboutbutton {
+  font-size: 50px;
+}
+
+#moregames {
+  font-size: 36px;
+}
+
+#backbutton {
+  font-size: 40px;
+}
+
+@media (max-width:1226px) {
+  #mainframe {
+    display: none;
+  }
+  #backdiv {
+    display: none;
+  }
+}
